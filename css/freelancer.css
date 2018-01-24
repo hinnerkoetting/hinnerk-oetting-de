@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - hinnerk-oetting-webseite v1.0.0 (http://hinnerk-oetting.de)
- * Copyright 2013-2016 Start Bootstrap
+ * Copyright 2013-2018 Start Bootstrap
  * Licensed under MIT ()
  */
 body {
@@ -19,6 +19,10 @@ a:focus,
 a:active,
 a.active {
   color: #2C3E50;
+  outline: none;
+}
+a.linkSecondary {
+  color: #1CA8C8;
   outline: none;
 }
 h1,
@@ -107,7 +111,7 @@ header .intro-text .skills {
   background: #2C3E50;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 500;
   border: none;
 }
 .navbar-custom a:focus {
