@@ -15,12 +15,10 @@
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Theme CSS -->
-    <link href="css/freelancer.min.css" rel="stylesheet">
+    <link href="css/freelancer.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">    
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -31,46 +29,45 @@
 
 </head>
 
-<body id="page-top" class="index">
+<body id="page-top" class="index" data-spy="scroll">
 
     <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        
+        <nav id="mainNav" class="navbar navbar-default fixed-top navbar-custom navbar-expand-lg">            
+
+                   
+                <a class="navbar-brand" href="#page-top">Hinnerk Oetting</a>
+                      
+                <button type="button" class="navbar-toggle navbar-right navbar-nav d-inline-block d-lg-none d-xl-none" data-toggle="collapse" data-target="#menu-entries" style="background: transparent; font-size: 1.5em; border-radius: 5px">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand" href="#page-top">Hinnerk Oetting</br>Software&shy;entwicklung</a>
-            </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#about">Über mich</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#skills">Skills</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#zertifizierungen">Zertifizierungen</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#portfolio">Open-Source</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#contact">Kontakt</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
+                </button>     
+
+                <div class="collapse navbar-collapse" id="menu-entries">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="hidden">
+                            <a href="#page-top"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">Über mich</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#skills" class="nav-link">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#zertifizierungen" class="nav-link">Zertifizierungen</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#portfolio" class="nav-link">Open-Source</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Kontakt</a>
+                        </li>
+                    </ul>
+                </div>
+            
+               
+        </nav>
 
     <!-- Header -->
     <header>
@@ -81,7 +78,7 @@
                     <div class="intro-text">
                         <span class="name">Hinnerk Oetting Software&shy;entwicklung</span>
                         <hr class="star-light">
-                        <span class="skills">Softwareentwickler - Projektleiter - Architekt - Interner Trainer</span>
+                        <span class="skills">Softwareentwickler - Architekt - Interner Trainer - IT Consultant</span>
                     </div>
                 </div>
             </div>
@@ -99,11 +96,14 @@
             </div>
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-2">
-                    <p>Mein Name ist Hinnerk Oetting, ich arbeite als freiberuflicher Softwareentwickler, Architekt und Projektleiter.</p>
+                    <p>Ich arbeite als freiberuflicher Softwareentwickler, Architekt, interner Trainer und IT-Consultant.</p>
                 </div>
                 <div class="col-lg-4">
-                    <p>Spezialisiert habe ich mich auf Entwicklung im Bereich Java EE, Test- und Buildautomatisierung.</p>
-                </div>                
+                    <p>Als Softwareentwickler bin ich spezialisiert auf Fullstack-Entwicklung mit Spring und Java EE in den Sprachen Java und JavaScript.</p>
+                </div>
+                <div class="col-lg-4">
+                    <p>Ich bringe acht Jahre Berufserfahrung in den Branchen Banken, Versicherungen und im Einzelhandel mit.</p>
+                </div>               
             </div>
         </div>
     </section>
@@ -121,7 +121,7 @@
                 <div class="col-lg-3 col-lg-offset-2">
                     <p><b>Programmiersprachen:</b></p>                        
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-7">
                     <p>Java, JavaScript (Node.js), Groovy, C++</p>                        
                 </div>                
             </div>
@@ -129,7 +129,7 @@
                 <div class="col-lg-3 col-lg-offset-2">
                     <p><b>Datenbanken:</b></p>                        
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-7">
                     <p>Oracle, DB2, MySQL, H2</p>                        
                 </div>                
             </div>
@@ -137,7 +137,7 @@
                 <div class="col-lg-3 col-lg-offset-2">
                     <p><b>Java EE:</b></p>                        
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-7">
                     <p> JSF, JAX-WS, JAX-RS, CDI, EJB, JPA, Bean Validation, JAXB, Servlets, JSP </p>                        
                 </div>                
             </div>
@@ -145,7 +145,7 @@
                 <div class="col-lg-3 col-lg-offset-2">
                     <p><b>Frameworks:</b></p>                        
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-7">
                     <p>Spring, iText, Android, Apache POI, Hibernate, Swing, JavaFX </p>                        
                 </div>                
             </div>
@@ -153,7 +153,7 @@
                 <div class="col-lg-3 col-lg-offset-2">
                     <p><b>Test-Bibliotheken:</b></p>                        
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-7">
                     <p>JUnit, Mockito, DbUnit, Selenium WebDriver, Spock </p>                        
                 </div>                
             </div>
@@ -161,7 +161,7 @@
                 <div class="col-lg-3 col-lg-offset-2">
                     <p><b>Werkzeuge:</b></p>                        
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-7">
                     <p>Eclipse, IntelliJ, SoapUI, Git, SVN, CVS </p>                        
                 </div>                
             </div>
@@ -169,7 +169,7 @@
                 <div class="col-lg-3 col-lg-offset-2">
                     <p><b>Methodiken:</b></p>                        
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-7">
                     <p> Testgetriebene Entwicklung, Clean Code, Design Patterns </p>                        
                 </div>                
             </div>
@@ -177,7 +177,7 @@
                 <div class="col-lg-3 col-lg-offset-2">
                     <p><b>Buildtools:</b></p>                        
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-7">
                     <p> Maven, Ant, Gradle, QuickBuild, Jenkins </p>                        
                 </div>                
             </div>
@@ -185,7 +185,7 @@
                 <div class="col-lg-3 col-lg-offset-2">
                     <p><b>Codeanalyse:</b></p>                        
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-7">
                     <p> Sonar, FindBugs, PMD </p>                        
                 </div>                
             </div>
@@ -193,8 +193,8 @@
                 <div class="col-lg-3 col-lg-offset-2">
                     <p><b>Betriebssysteme:</b></p>                        
                 </div>
-                <div class="col-lg-6">
-                    <p>  Windows, Linux </p>                        
+                <div class="col-lg-7">
+                    <p>Windows, Linux </p>                        
                 </div>                
             </div>
         </div>
@@ -239,82 +239,75 @@
                 <div class="col-lg-12 text-center">
                     <h2>Open-Source-Projekte</h2>
                     <hr class="star-light">
+                    <br/>
                 </div>
             </div>
             <div class="row">                
                 <div class="col-sm-4 portfolio-item col-sm-offset-4">
-                    <a href="http://bumpingbunnies.github.io/" class="success">Bumping Bunnies</a> - Ein kleines Mehrspieler-Spiel für Android und den PC.
+                    <p>
+                        <b><a href="http://bumpingbunnies.github.io/" class="success">Bumping Bunnies</a></b> <br/> Ein kleines Mehrspieler-Spiel für Android und den PC.
+                    </p>
                 </div>                
                 <div class="col-sm-4 col-md-offset-2">
-                    <a href="https://github.com/hinnerkoetting/tin-recorder/releases">Tin Recorder</a> - Ein Programm zum automatischen Aufnehmen von Radiosendungen auf tunein.com
+                    <p>
+                        <b><a href="https://github.com/hinnerkoetting/tin-recorder/releases">Tin Recorder</a></b> <br/> Ein Programm zum automatischen Aufnehmen von Radiosendungen auf tunein.com
+                    </p>
                 </div>                
             </div>
         </div>
     </section>
 
-   
-  
 
     <!-- Footer -->
     <footer class="text-center">
         <div class="footer-above">
             <div class="container">
                 <div class="row">
-                    <div class="footer-col col-md-4">
+                    <div class="footer-col col-md-4"  id="contact">
                         <h3>Kontakt</h3>
                         <p>König-Heinrich-Weg 24
                             <br>22459 Hamburg
-                            <br>hinnerk.oetting[bei]gmail[punkt]com</p>
+                            <br>hinnerk.oetting&#8203;[bei]gmail[punkt]com</p>
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>Im Web</h3>
-                        <ul class="list-inline">                            
-                            <li>
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <a href="https://www.xing.com/profile/Hinnerk_Oetting" class="btn-social btn-outline"><i class="fa fa-fw fa-xing"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://github.com/hinnerkoetting" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+                            </li>
+                            <li class="list-inline-item">
                                 <a href="https://plus.google.com/u/0/111569984817607885427" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
                             </li>
-                            <li>
-                                <a href="https://twitter.com/HinnerkOetting" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/hinnerkoetting" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
-                            </li>                            
                         </ul>
                     </div>
-                    <div class="footer-col col-md-4">
+                    <div class="footer-col col-md-4"  style="padding-bottom: 50px">
                         <h3>Impressum</h3>
-                            <a class="linkSecondary" href="impressum.html">Impressum</a>
+                            <p>
+                                <a class="linkSecondary" href="impressum.html">Impressum</a>
+                            </p>
                         </ul>
-                    </div>
+                    </div>                   
+
                 </div>
             </div>
         </div>       
     </footer>
 
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+    <div class="scroll-top page-scroll d-lg-none d-xl-none" style="margin: auto; width: 50%; ">        
         <a class="btn btn-primary" href="#page-top">
             <i class="fa fa-chevron-up"></i>
         </a>
     </div>
 
-    <!-- Portfolio Modals -->
-
-
-    <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/freelancer.js"></script>
 
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
-    <!-- Theme JavaScript -->
-    <script src="js/freelancer.min.js"></script>
 
 </body>
 

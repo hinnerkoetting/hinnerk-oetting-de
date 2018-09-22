@@ -108,8 +108,7 @@ header .intro-text .skills {
   }
 }
 .navbar-custom {
-  background: #2C3E50;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #2C3E50;  
   text-transform: uppercase;
   font-weight: 500;
   border: none;
@@ -164,7 +163,10 @@ header .intro-text .skills {
 }
 @media (min-width: 768px) {
   .navbar-custom {
-    padding: 25px 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;    
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
     transition: padding 0.3s;
@@ -509,4 +511,10 @@ fieldset[disabled] .btn-success.active {
 }
 #photo {
   border-radius: 50%;
+}
+nav.navbar.shrink {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;    
 }
