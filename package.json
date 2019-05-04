@@ -18,7 +18,7 @@
   "scripts": {
     "clean": "rm -Rf vendor",
     "init": "mkdir -p vendor/bootstrap/ vendor/jquery/ vendor/font-awesome/",
-    "copy": "cp -R node_modules/bootstrap/dist/* vendor/bootstrap/ && cp -R node_modules/jquery/dist/* vendor/jquery/ && cp -R node_modules/font-awesome/* vendor/font-awesome/",
+    "copy": "cp -R node_modules/bootstrap/dist/* vendor/bootstrap/ && cp -R node_modules/jquery/dist/* vendor/jquery/ && cp -R node_modules/font-awesome/css vendor/font-awesome/ && cp -R node_modules/font-awesome/fonts vendor/font-awesome/",
     "install": "npm run clean && npm run init && npm run copy"
   }
 }
