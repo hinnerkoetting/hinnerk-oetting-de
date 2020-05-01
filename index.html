@@ -39,7 +39,7 @@
                    
                 <a class="navbar-brand" href="#page-top">Hinnerk Oetting</a>
                       
-                <button type="button" class="navbar-toggle navbar-right navbar-nav d-inline-block d-lg-none d-xl-none" data-toggle="collapse" data-target="#menu-entries" style="background: transparent; font-size: 1.5em; border-radius: 5px">
+                <button type="button" class="navbar-toggle navbar-right navbar-nav d-inline-block d-lg-none d-xl-none" onclick="toggleMenu()" style="background: transparent; font-size: 1.5em; border-radius: 5px">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>     
 
@@ -49,7 +49,7 @@
                             <a href="#page-top"></a>
                         </li>
                         <li class="nav-item">
-                            <a href="#about" class="nav-link">Über mich</a>
+                            <a href="#about" class="nav-link">Ich biete</a>
                         </li>
                         <li class="nav-item">
                             <a href="#skills" class="nav-link">Skills</a>
@@ -78,7 +78,7 @@
                     <div class="intro-text">
                         <span class="name">Hinnerk Oetting Software&shy;entwicklung</span>
                         <hr class="star-light">
-                        <span class="skills">Softwareentwickler - Architekt - Interner Trainer - IT Consultant</span>
+                        <span class="skills">Freiberuflicher Softwareentwickler</span>
                     </div>
                 </div>
             </div>
@@ -90,19 +90,16 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Über mich</h2>
+                    <h2>Ich biete</h2>
                     <hr class="star-primary">
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>Ich arbeite als freiberuflicher Softwareentwickler, Architekt, interner Trainer und IT-Consultant.</p>
-                </div>
-                <div class="col-lg-4">
-                    <p>Als Softwareentwickler bin ich spezialisiert auf Fullstack-Entwicklung mit Spring und Java EE in den Sprachen Java und JavaScript.</p>
-                </div>
-                <div class="col-lg-4">
-                    <p>Ich bringe acht Jahre Berufserfahrung in den Branchen Banken, Versicherungen und im Einzelhandel mit.</p>
+                <div class="col-lg-6 col-lg-offset-2">
+                    <p>Ich arbeite als freiberuflicher Softwareentwickler, spezialisiert auf die Bereiche Backend-, Frontend-, API- sowie iOS und Android-App-Entwicklung in Java, JavaScript und Swift.</p>
+                </div>           
+                <div class="col-lg-6">
+                    <p>Ich bringe neun Jahre Berufserfahrung in den Branchen Banken, Versicherungen, Einzelhandel und E-Commerce mit.</p>
                 </div>               
             </div>
         </div>
@@ -122,7 +119,7 @@
                     <p><b>Programmiersprachen:</b></p>                        
                 </div>
                 <div class="col-lg-7">
-                    <p>Java, JavaScript (Node.js), Groovy, C++</p>                        
+                    <p>Java, JavaScript bzw. TypeScript (auch mit Node.js), Kotlin, Swift, Groovy, C++, Objective-C</p>                        
                 </div>                
             </div>
             <div class="row">                
@@ -138,7 +135,7 @@
                     <p><b>Java EE:</b></p>                        
                 </div>
                 <div class="col-lg-7">
-                    <p> JSF, JAX-WS, JAX-RS, CDI, EJB, JPA, Bean Validation, JAXB, Servlets, JSP </p>                        
+                    <p>JSF, JAX-WS, JAX-RS, CDI, EJB, JPA, Bean Validation, JAXB, Servlets, JSP</p>                        
                 </div>                
             </div>
             <div class="row">                
@@ -146,7 +143,7 @@
                     <p><b>Frameworks:</b></p>                        
                 </div>
                 <div class="col-lg-7">
-                    <p>Spring, iText, Android, Apache POI, Hibernate, Swing, JavaFX </p>                        
+                    <p>Spring, iText, Android, Apache POI, Hibernate, Swing, JavaFX</p>                        
                 </div>                
             </div>
             <div class="row">                
@@ -154,7 +151,7 @@
                     <p><b>Test-Bibliotheken:</b></p>                        
                 </div>
                 <div class="col-lg-7">
-                    <p>JUnit, Mockito, DbUnit, Selenium WebDriver, Spock </p>                        
+                    <p>Cucumber, JUnit, TestNG, Mockito, DbUnit, Selenium WebDriver, Spock </p>                        
                 </div>                
             </div>
             <div class="row">                
@@ -162,7 +159,7 @@
                     <p><b>Werkzeuge:</b></p>                        
                 </div>
                 <div class="col-lg-7">
-                    <p>Eclipse, IntelliJ, SoapUI, Git, SVN, CVS </p>                        
+                    <p>IntelliJ, Eclipse, Postman, Docker, Kubernete, Git, GraphQL, SoapUI</p>                        
                 </div>                
             </div>
             <div class="row">                
@@ -170,7 +167,7 @@
                     <p><b>Methodiken:</b></p>                        
                 </div>
                 <div class="col-lg-7">
-                    <p> Testgetriebene Entwicklung, Clean Code, Design Patterns </p>                        
+                    <p>Microservices, REST-APIs, Testgetriebene Entwicklung, Clean Code, Design Patterns, Fullstack-Entwicklung </p>                        
                 </div>                
             </div>
             <div class="row">                
@@ -194,7 +191,7 @@
                     <p><b>Betriebssysteme:</b></p>                        
                 </div>
                 <div class="col-lg-7">
-                    <p>Windows, Linux </p>                        
+                    <p>Windows, Linux, MacOS</p>                        
                 </div>                
             </div>
         </div>
@@ -267,7 +264,8 @@
                         <h3>Kontakt</h3>
                         <p>König-Heinrich-Weg 24
                             <br>22459 Hamburg
-                            <br>hinnerk.oetting&#8203;[bei]gmail[punkt]com</p>
+                            <br>hinnerk.oetting&#8203;[bei]gmail[punkt]com
+                        </p>
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>Im Web</h3>

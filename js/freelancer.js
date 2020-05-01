@@ -28,3 +28,11 @@
         
 })(jQuery); // End of use strict
 
+
+function toggleMenu() {
+    if ($('#menu-entries').attr('class').split(' ').includes('collapse')) {
+        $('#menu-entries').attr('class', 'collapse.show navbar-collapse');
+    } else {
+        $('#menu-entries').attr('class', 'collapse navbar-collapse');
+    }
+}

@@ -8,9 +8,9 @@
     "type": "MIT"
   },
   "devDependencies": {
-    "bootstrap": "^4.3.1",
+    "bootstrap": "^4.4.1",
     "font-awesome": "^4.7.0",
-    "jquery": "^3.4.1"
+    "jquery": "^3.5.0"
   },
   "repository": {
     "type": "git"
